@@ -23,4 +23,4 @@ SI pas de fièvre et (toux OU douleurs OU anosmie)
    SI >= 1 facteur de gravité mineur OU 1 facteur pronostique => FIN8
    SI 0 facteur de gravité mineur => FIN7
 
-SI NI toux NI douleurs NI anosmie NI fièvre => FIN9
+SI NI fièvre NI toux NI douleurs NI anosmie => FIN9
