@@ -1,6 +1,6 @@
 SI moins de 15 ans => FIN1
    
-SI fièvre OU (toux ET mal de gorge) OU (toux ET anosmie) OU (fièvre ET diarrhée)
+SI (fièvre ET PAS toux) OU (toux ET mal de gorge) OU (toux ET anosmie) OU (fièvre ET diarrhée)
    SI un facteur de gravité majeur => FIN5
     
    SI 0 facteur pronostique
