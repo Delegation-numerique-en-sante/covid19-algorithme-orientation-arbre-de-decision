@@ -20,7 +20,7 @@ SI fièvre OU (toux ET mal de gorge) OU (toux ET anosmie) OU diarrhée
       SI au moins 2 facteurs de gravité mineurs => FIN4
 
 SI pas de fièvre et (toux OU mal de gorge OU anosmie)
-   SI 0 facteur de gravité mineur => FIN7
    SI >= 1 facteur de gravité mineur OU 1 facteur pronostique => FIN8
+   SI 0 facteur de gravité mineur => FIN7
 
 SI NI toux NI mal de gorge NI anosmie NI fièvre => FIN9
