@@ -4,7 +4,7 @@ SI fièvre ET toux
    SI >= 1 facteurs de gravité majeurs => FIN5
    SI 0 facteur pronostique
       SI 0 OU 1 facteur de gravité mineurs => FIN6
-   SI >= 1 facteur pronostique
+   SI >= 1 facteurs pronostiques
       SI 0 OU 1 facteur de gravité mineurs => FIN6
       SI >= 2 facteurs de gravité mineurs => FIN4
 
@@ -15,13 +15,12 @@ SI fièvre OU (toux ET mal de gorge) OU (toux ET anosmie) OU diarrhée
          SI moins de 50 ans => FIN2
             SINON => FIN3
       SINON => FIN3
-
-   SI 1 OU plus facteurs pronostique
+   SI >= 1 facteurs pronostiques
       SI 0 OU 1 facteur de gravité mineur => FIN3
       SI au moins 2 facteurs de gravité mineurs => FIN4
 
 SI pas de fièvre et (toux OU mal de gorge OU anosmie)
    SI 0 facteur de gravité mineur => FIN7
-   SI au moins un facteur de gravité mineur OU un facteur pronostique => FIN8
+   SI >= 1 facteur de gravité mineur OU 1 facteur pronostique => FIN8
 
 SI NI toux NI mal de gorge NI anosmie NI fièvre => FIN9
