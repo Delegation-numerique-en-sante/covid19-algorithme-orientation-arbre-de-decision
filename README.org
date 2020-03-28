@@ -1,13 +1,15 @@
 #+title: Arbre de décision de l'algorithme d'orientation COVID19
 
-Ce dépôt contient seulement l'arbre de décision de l'algorithme d'orientation COVID19.
+Ce dépôt contient seulement [[file:covid19-orientation-arbre-de-decision.txt][l'arbre de décision]] de l'algorithme
+d'orientation COVID19.
 
 Pour la documentation sur l'ensemble de l'algorithme (questionnaire
 inclus), voir [[https://github.com/Delegation-numerique-en-sante/covid19-algorithme-orientation][ce dépôt]].
 
 ** Licence
 
-2020 Délégation ministérielle du numérique en santé et les contributeurs du dépôt.
+2020 Délégation ministérielle du numérique en santé et les
+contributeurs du dépôt.
 
 Le code source de cette application est publié sous licence [[file:LICENSE][EPL 2.0]].
 
