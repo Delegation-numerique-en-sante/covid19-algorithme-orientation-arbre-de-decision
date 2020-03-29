@@ -21,6 +21,6 @@ SI fièvre OU (pas de fièvre et (diarrhée OU (toux ET douleurs) OU (toux ET an
 
 SI toux OU douleurs OU anosmie
    SI 0 facteur de gravité mineur => FIN2
-   SI >= facteur de gravité mineur => FIN7
+   SI >= 1 facteur de gravité mineur => FIN7
 
 SI NI toux NI douleurs NI anosmie => FIN8
