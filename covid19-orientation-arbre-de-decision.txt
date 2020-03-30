@@ -5,7 +5,7 @@ SI >= 1 facteurs de gravité majeurs => FIN5
 SI fièvre ET toux
    SI 0 facteur pronostique => FIN6
    SI >= 1 facteurs pronostiques
-      SI <2 facteur de gravité mineur => FIN6
+      SI < 2 facteur de gravité mineur => FIN6
       SI >= 2 facteurs de gravité mineurs => FIN4
 
 SI fièvre OU (pas de fièvre et (diarrhée OU (toux ET douleurs) OU (toux ET anosmie))
@@ -15,7 +15,7 @@ SI fièvre OU (pas de fièvre et (diarrhée OU (toux ET douleurs) OU (toux ET an
          SINON => FIN3
       SI >= 1 facteur de gravité mineur => FIN3
    SI >= 1 facteurs pronostiques
-      SI <2 facteur de gravité mineur => FIN3
+      SI < 2 facteur de gravité mineur => FIN3
       SI >= 2 facteurs de gravité mineurs => FIN4
 
 SI toux OU douleurs OU anosmie
