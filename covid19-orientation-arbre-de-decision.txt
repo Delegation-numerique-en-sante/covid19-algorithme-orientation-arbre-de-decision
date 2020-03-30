@@ -12,8 +12,8 @@ SI fièvre OU (pas de fièvre et (diarrhée OU (toux ET douleurs) OU (toux ET an
    SI 0 facteur pronostique
       SI 0 facteur de gravité mineur
          SI moins de 50 ans => FIN2
-            SINON => FIN3
          SINON => FIN3
+      SI >= 1 facteur de gravité mineur => FIN3
    SI >= 1 facteurs pronostiques
       SI <2 facteur de gravité mineur => FIN3
       SI >= 2 facteurs de gravité mineurs => FIN4
