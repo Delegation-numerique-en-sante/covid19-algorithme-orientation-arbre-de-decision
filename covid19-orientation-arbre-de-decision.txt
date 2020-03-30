@@ -2,8 +2,7 @@ SI moins de 15 ans => FIN1
 
 SI fièvre ET toux
    SI >= 1 facteurs de gravité majeurs => FIN5
-   SI 0 facteur pronostique
-      SI 0 OU 1 facteur de gravité mineur => FIN6
+   SI 0 facteur pronostique => FIN6
    SI >= 1 facteurs pronostiques
       SI 0 OU 1 facteur de gravité mineur => FIN6
       SI >= 2 facteurs de gravité mineurs => FIN4
