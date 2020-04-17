@@ -1,25 +1,25 @@
-SI moins de 15 ans => FIN1
+IF moins de 15 ans => FIN1
 
-SI >= 1 facteurs de gravité majeurs => FIN5
+IF >= 1 facteurs de gravité majeurs => FIN5
 
-SI fièvre ET toux
-   SI 0 facteur pronostique => FIN6
-   SI >= 1 facteurs pronostiques
-      SI < 2 facteur de gravité mineur => FIN6
-      SI >= 2 facteurs de gravité mineurs => FIN4
+IF fièvre AND toux
+   IF 0 facteur pronostique => FIN6
+   IF >= 1 facteurs pronostiques
+      IF < 2 facteur de gravité mineur => FIN6
+      IF >= 2 facteurs de gravité mineurs => FIN4
 
-SI fièvre OU (pas de fièvre et (diarrhée OU (toux ET douleurs) OU (toux ET anosmie))
-   SI 0 facteur pronostique
-      SI 0 facteur de gravité mineur
-         SI moins de 50 ans => FIN2
-         SINON => FIN3
-      SI >= 1 facteur de gravité mineur => FIN3
-   SI >= 1 facteurs pronostiques
-      SI < 2 facteur de gravité mineur => FIN3
-      SI >= 2 facteurs de gravité mineurs => FIN4
+IF fièvre OR (NOT fièvre AND (diarrhée OR (toux AND douleurs) OR (toux AND anosmie) OR (douleurs AND anosmie)))
+   IF 0 facteur pronostique
+      IF 0 facteur de gravité mineur
+         IF moins de 50 ans => FIN2
+         IFNON => FIN3
+      IF >= 1 facteur de gravité mineur => FIN3
+   IF >= 1 facteurs pronostiques
+      IF < 2 facteur de gravité mineur => FIN3
+      IF >= 2 facteurs de gravité mineurs => FIN4
 
-SI toux OU douleurs OU anosmie
-   SI 0 facteur pronostique => FIN2
-   SI >= 1 facteurs pronostiques => FIN7
+IF toux XOR douleurs XOR anosmie
+   IF 0 facteur pronostique => FIN2
+   IF >= 1 facteurs pronostiques => FIN7
 
-SI NI toux NI douleurs NI anosmie => FIN8
+IF NOT toux AND NOT douleurs AND NOT anosmie => FIN8
