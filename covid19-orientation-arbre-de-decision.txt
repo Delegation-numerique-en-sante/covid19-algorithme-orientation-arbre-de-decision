@@ -12,7 +12,7 @@ IF fièvre XOR (diarrhée OR (toux AND douleurs) OR (toux AND anosmie) OR (doule
    IF 0 facteur pronostique
       IF 0 facteur de gravité mineur
          IF moins de 50 ans => FIN2
-         IFNON => FIN3
+         ELSE => FIN3
       IF >= 1 facteur de gravité mineur => FIN3
    IF >= 1 facteurs pronostiques
       IF < 2 facteur de gravité mineur => FIN3
