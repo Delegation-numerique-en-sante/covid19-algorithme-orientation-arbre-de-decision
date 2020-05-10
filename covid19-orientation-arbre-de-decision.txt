@@ -11,7 +11,7 @@ IF fièvre AND toux
 IF fièvre OR (diarrhée OR (toux AND douleurs) OR (toux AND anosmie) OR (douleurs AND anosmie)))
    IF 0 facteur pronostique
       IF 0 facteur de gravité mineur
-         IF moins de 50 ans => FIN2
+         IF moins de 50 ans => FIN6
          ELSE => FIN3
       IF >= 1 facteur de gravité mineur => FIN3
    IF >= 1 facteurs pronostiques
@@ -19,7 +19,7 @@ IF fièvre OR (diarrhée OR (toux AND douleurs) OR (toux AND anosmie) OR (douleu
       IF >= 2 facteurs de gravité mineurs => FIN4
 
 IF toux XOR douleurs XOR anosmie
-   IF 0 facteur pronostique => FIN2
+   IF 0 facteur pronostique => FIN6
    IF >= 1 facteurs pronostiques => FIN7
 
 IF NOT toux AND NOT douleurs AND NOT anosmie => FIN8
