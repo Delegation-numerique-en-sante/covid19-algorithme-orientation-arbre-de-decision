@@ -5,7 +5,7 @@ IF >= 1 facteurs de gravité majeurs => FIN5
 IF fièvre AND toux
    IF 0 facteur pronostique => FIN6
    IF >= 1 facteurs pronostiques
-      IF < 2 facteur de gravité mineur => FIN6
+      IF < 2 facteur de gravité mineur => FIN7
       IF >= 2 facteurs de gravité mineurs => FIN4
 
 IF fièvre OR (diarrhée OR (toux AND douleurs) OR (toux AND anosmie) OR (douleurs AND anosmie)))
